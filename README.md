@@ -55,15 +55,7 @@ GEMINI_API_KEY=masukkan_api_key_anda_disini_tanpa_tanda_kutip
 ---
 
 ## Cara Menjalankan
-1. Siapkan script Python utama (`assistant.py`).
-2. Siapkan file kode yang ingin direview (saya sudah sediakan file `contoh.py` yang sengaja dibuat ada sedikit bug).
-3. Buka terminal dan arahkan ke folder proyek Anda.
-4. Jalankan perintah ini:
-
-```bash
-python assistant.py contoh.py
-```
-5. Tunggu beberapa saat, dan hasil review dari AI akan muncul di terminal!
+*(Proyek ini sedang dalam tahap awal pengembangan. Kode sumber dan instruksi cara menjalankan akan diperbarui segera setelah versi awal AI Agent selesai dibangun!)*
 
 ---
 
@@ -77,4 +69,4 @@ Cara berkontribusi:
 4. **Push** ke branch tersebut (`git push origin fitur-baru-saya`).
 5. Buat **Pull Request (PR)** agar bisa kami review.
 
-Jangan ragu untuk ikut serta mengembangkan AI Coding Assistant ini bersama-sama!
+Jangan ragu untuk ikut serta mengembangkan AI Agent ini bersama-sama!
