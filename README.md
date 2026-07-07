@@ -1,8 +1,8 @@
-# Simple AI Coding Assistant (Versi Gratis) 🤖
+# Proyek AI Agent dengan Python 🤖
 
-Proyek ini adalah contoh sederhana bagaimana membuat AI Coding Assistant berbasis Command Line Interface (CLI) menggunakan Python. Versi ini menggunakan API dari **Google Gemini** karena memiliki *Free Tier* (kuota gratis) yang sangat besar dan selamanya (tanpa perlu kartu kredit).
+Proyek ini bertujuan untuk membangun sebuah **AI Agent** berbasis Command Line Interface (CLI) menggunakan Python. Berbeda dengan AI Assistant biasa yang hanya bisa membaca dan membalas chat, **AI Agent** adalah sistem yang memiliki kemampuan untuk *bertindak (take action)*, memanggil fungsi eksternal (seperti search internet, akses file, dll), dan mengambil keputusan secara mandiri untuk menyelesaikan suatu tugas.
 
-Aplikasi ini akan membaca file kode sumber Anda dan memberikan review, termasuk deteksi bug, saran perbaikan, dan *best practice*.
+Proyek ini menggunakan API dari **Google Gemini** karena memiliki *Free Tier* (kuota gratis) yang sangat besar dan selamanya (tanpa perlu kartu kredit).
 
 ## Daftar Isi
 1. [Persiapan dan Prasyarat](#persiapan-dan-prasyarat)
@@ -68,12 +68,14 @@ python assistant.py contoh.py
 
 ---
 
-## Langkah Selanjutnya
-Jika Anda sudah memahami alur kerja dasar dari program ini, Anda bisa mencoba menambahkan fitur-fitur keren lainnya:
-- **Auto-Fix Kode:** Minta AI untuk mengembalikan kode yang sudah diperbaiki, lalu gunakan Python untuk langsung menulis/menimpa file asli dengan kode baru tersebut.
-- **Dukungan Banyak Bahasa:** Menambahkan kemampuan membaca berbagai macam file (misal `.js`, `.html`, `.cpp`) dengan membaca ekstensi file.
-- **Aplikasi Web:** Mengubah CLI menjadi aplikasi web menggunakan framework sederhana seperti [Streamlit](https://streamlit.io/) atau [Flask](https://flask.palletsprojects.com/) agar memiliki tampilan antarmuka yang ramah pengguna.
-- **Percakapan Berkelanjutan (Chat):** Menambahkan loop `while` agar setelah file direview, Anda bisa bertanya lebih lanjut tentang review tersebut tanpa harus mengulang dari awal.
+## Langkah Selanjutnya: Menuju AI Agent 🤖
+Saat ini aplikasi kita masih berupa **AI Assistant** (hanya bisa membaca input dan memberikan jawaban teks). Jika Anda sudah menguasai alur dasarnya, Anda bisa mengembangkan proyek ini menjadi **AI Agent** yang bisa *bertindak (take action)*!
+
+Beberapa ide untuk mengevolusi proyek ini menjadi AI Agent:
+- **Agent Pencari Info Cuaca/Saham:** Mengajarkan AI untuk memanggil API pihak ketiga agar bisa mengecek cuaca atau harga saham secara *real-time* di internet lalu melaporkannya ke Anda.
+- **Agent Asisten Pribadi (Desktop):** Memberikan AI kemampuan untuk menjalankan perintah sistem (*command prompt*), sehingga dia bisa membuatkan folder, mencari file di laptop Anda, atau merapikan file berantakan secara mandiri.
+- **Agent Web Researcher:** Memberikan AI akses ke internet agar dia bisa browsing Google sendiri, membaca beberapa artikel, dan merangkum hasil risetnya secara otomatis.
+- **Auto-Fix Kode (Agentik):** Minta AI untuk mengembalikan kode yang sudah diperbaiki, lalu buat agar program Anda secara otomatis menimpa file asli dengan kode baru tersebut tanpa perlu campur tangan manusia.
 
 ---
 
