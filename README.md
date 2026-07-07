@@ -10,8 +10,7 @@ Proyek ini menggunakan API dari **Google Gemini** karena memiliki *Free Tier* (k
 3. [Instalasi](#instalasi)
 4. [Konfigurasi Keamanan (Environment Variable)](#konfigurasi-keamanan-environment-variable)
 5. [Cara Menjalankan](#cara-menjalankan)
-6. [Langkah Selanjutnya (Pengembangan Lanjutan)](#langkah-selanjutnya)
-7. [Kontribusi](#kontribusi)
+6. [Kontribusi](#kontribusi)
 
 ---
 
@@ -65,17 +64,6 @@ GEMINI_API_KEY=masukkan_api_key_anda_disini_tanpa_tanda_kutip
 python assistant.py contoh.py
 ```
 5. Tunggu beberapa saat, dan hasil review dari AI akan muncul di terminal!
-
----
-
-## Langkah Selanjutnya: Menuju AI Agent 🤖
-Saat ini aplikasi kita masih berupa **AI Assistant** (hanya bisa membaca input dan memberikan jawaban teks). Jika Anda sudah menguasai alur dasarnya, Anda bisa mengembangkan proyek ini menjadi **AI Agent** yang bisa *bertindak (take action)*!
-
-Beberapa ide untuk mengevolusi proyek ini menjadi AI Agent:
-- **Agent Pencari Info Cuaca/Saham:** Mengajarkan AI untuk memanggil API pihak ketiga agar bisa mengecek cuaca atau harga saham secara *real-time* di internet lalu melaporkannya ke Anda.
-- **Agent Asisten Pribadi (Desktop):** Memberikan AI kemampuan untuk menjalankan perintah sistem (*command prompt*), sehingga dia bisa membuatkan folder, mencari file di laptop Anda, atau merapikan file berantakan secara mandiri.
-- **Agent Web Researcher:** Memberikan AI akses ke internet agar dia bisa browsing Google sendiri, membaca beberapa artikel, dan merangkum hasil risetnya secara otomatis.
-- **Auto-Fix Kode (Agentik):** Minta AI untuk mengembalikan kode yang sudah diperbaiki, lalu buat agar program Anda secara otomatis menimpa file asli dengan kode baru tersebut tanpa perlu campur tangan manusia.
 
 ---
 
